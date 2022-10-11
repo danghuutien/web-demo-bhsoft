@@ -689,7 +689,7 @@ body{
 /* ///// */
 
 
-.section-item-6{
+.section-item_6{
     padding: 85px 0;
     background-color: #1274e7;
 }
@@ -722,11 +722,143 @@ body{
     font-weight: 500;
 }
 
-.section-item_6-container .content{
+.section-item_6-container .section-item_6-content{
     display: flex;
     justify-content: center;
     
 }
+.section-item_6-container .section-item_6-content .item{
+    flex: 0 0 33.33333%;
+    text-align: center;
+    padding: 0 10px;
+    
+
+}
+
+.section-item_6-content .item .item-container{
+    margin: 10px 0;
+    padding: 30px 20px;
+    max-width: 298px;
+    line-height: 1.42857143;
+    /* margin: 0 -20px; */
+}
+
+.section-item_6-container .section-item_6-content .item-container-item_2{
+    background-color: rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    
+}
+
+.section-item_6-content .item .item-container p{
+    margin-bottom: 20px;
+    font-size: 15px;
+    line-height: 26px;
+    font-family: 'Open Sans',sans-serif !important;
+    
+}
+
+.section-item_6-content .item p span{
+    color: #bdd9fa;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.section-item_6-content .item h6{
+    margin: 10px 0;
+    font-size: 16px;
+    line-height: 26px;
+    color: #fff;
+}
+
+
+
+/* -------7------- */
+
+.section-item_7{
+    padding: 85px 0;
+    background-color: #fff;
+}
+
+.section-item_7-container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.section-item_7-container .text{
+
+    padding-bottom: 30px;
+}
+
+.section-item_7-container .text h2{
+    margin: 20px 0px  10px 0;
+    font-size: 36px;
+    line-height: 58px;
+    color: #444;
+    font-weight: 500;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.section-item_7-container .text span h6{
+    color: #999;
+    text-align: center;
+    margin: 10px 0;
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+}
+
+.section-item_7-container .item{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.section-item_7-container .item .btn{
+    background-color: #f4f4f4;
+    height: 58px;
+    line-height: 58px;
+    padding: 0 20px;
+    cursor: pointer;
+    margin-bottom: 5px;
+    
+}
+
+.section-item_7-container .item .btn span{
+    color: #999;
+    font-size: 16px;
+}
+
+.section-item_7-container .item .item-text{
+    overflow: hidden;
+    /* display: none; */
+    height: 0;
+}
+
+.section-item_7-container .item .item-text.animation{
+    height: auto;
+    /* display: block; */
+    animation: blockItem linear 1s;
+}
+
+.section-item_7-container .item .item-text p{
+    padding: 15px;
+    color: #999;;
+    font-size: 14px;
+    line-height: 24px;
+    
+}
+
+@keyframes blockItem {
+    from{
+        opacity: 0;
+        height: 0;
+    }
+    to{
+        opacity: 1;
+        height: 102px;
+    }
+}
+
 
 
 
