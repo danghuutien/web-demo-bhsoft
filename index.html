@@ -18,7 +18,9 @@
             <label for="open-modal" class="ovelay"></label>
 
             <div class="contact-container max-width">
+                <label for="open-modal" style="text-align:right">X</label>
                 <div class="content">
+
                     <div class="images">
                         <img src="./assets/images/popup-20.jpg" alt="" srcset="">
                     </div>
@@ -81,10 +83,19 @@
                         <img src="./assets/images/logo.png" alt="">
                     </div>
                     <div class="menu-left-item">
-                        <ul>
+                        <ul id="nav">
                             <li><a href="">FEATURES</a></li>
-                            <li><a href="">DROPDOWN</a></li>
-                            <li><label style="cursor: pointer;" for="open-modal"><a>CONTACT</a></label></li>
+                            <li>
+                                <a href="">
+                                    DROPDOWN
+                                   </a>
+                                <ul class="subnav">
+                                    <li><a href="#">Menu Builder</a></li>
+                                    <li><a href="#">Custom Link</a></li>
+                                    <li><a href="#">Integrations</a></li>
+                                </ul>
+                            </li>
+                            <li><label for="open-modal">CONTACT</label></li>
                         </ul>
                     </div>
                 </div>

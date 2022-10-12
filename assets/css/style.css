@@ -59,16 +59,32 @@
 }
 
 .contact-container{
-    max-width: 960px;
+    max-width: 900px;
     margin: 30px auto;
     height: auto;
     background-color: #fff;
+    position: relative;
+}
+.contact-container label{
+    position: absolute;
+    right: 0;
+    padding: 10px;
+    color: #000;
+    font-weight: bold;
+    opacity: 0.2;
+    font-family: 'Open Sans',sans-serif !important;
+    cursor: pointer;
+}
+
+.contact-container a:hover{
+    opacity: 0.5;
 }
 
 .contact-container .content{
-    padding: 40px;
+    padding: 40px 20px;
     display: flex;
     z-index: 1;
+    justify-content: center;
 }
 
 .contact-container .content .images{
@@ -227,6 +243,73 @@ body{
     height: 30px;
 }
 
+#nav {
+    display: inline-block;
+    font-size: 14px;
+    position: relative;
+    top: 2px;
+}
+
+#nav, .subnav {
+    list-style-type: none;
+}
+
+#nav > li {
+    display: inline-block;
+}
+
+#nav li {
+    position: relative;
+}
+
+#nav li:hover .subnav {
+    display: block; 
+}
+
+#nav > li > a {
+    color: #818e9b;
+    text-transform: uppercase;
+    font-weight: 800;
+    border-radius: 3px;
+    padding: 15px;
+}
+
+#nav li a {
+    text-decoration: none;
+    display: block;
+    line-height: 20px;
+    
+}
+
+#nav > li:hover > a {
+    opacity: 0.7;
+    background: rgba(0,0,0,0.03);
+}
+
+#nav .subnav {
+    display: none;
+    position: absolute;
+    top: 100%;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    min-width: 165px;
+    border-radius: 3px;
+}
+
+#nav .subnav a {
+    font-size: 14px;
+    font-weight: 500;
+    color: #aaa !important;
+    padding: 10px 15px;
+    
+}
+
+#nav .subnav li:hover a {
+    color: #818e9b;
+    background: rgba(0,0,0,0.03);
+
+}
+
 .header-menu>ul{
     display: flex;
     margin-left: -10px;
@@ -322,12 +405,37 @@ body{
     margin-right: -10px;
 }
 
-.section-menu .menu-left .menu-left-item>ul li a{
+.section-menu .menu-left .menu-left-item>ul>li label,
+.section-menu .menu-left .menu-left-item>ul>li a{
     color: #fff !important;
     padding: 15px;
     line-height: 60px;
     font-weight: bold;
     font-size: 14px;
+    cursor: pointer;
+}
+
+.section-menu .subnav {
+    /* display: none; */
+    position: absolute;
+    top: 85px;
+    background-color: #fff;
+    color: #818e9b;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    min-width: 165px;
+    
+}
+
+.section-menu .subnav a {
+    font-weight: 400;
+    color: #aaa;
+    padding: 10px 0 10px 15px;
+}
+
+.section-menu .subnav li:hover a {
+    color: #818e9b;
+    background: rgba(0,0,0,0.03);
+
 }
 
 .section-menu .menu-right{
@@ -348,6 +456,7 @@ body{
     line-height: 26px;
     margin: 1px 5px;
 }
+
 
 
 .section-content{
