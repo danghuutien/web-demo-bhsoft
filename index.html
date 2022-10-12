@@ -13,8 +13,47 @@
 
 <body>
     <div class="container">
+        <input type="checkbox" id="open-modal" style="display: none;">
+        <div class="contact">
+            <label for="open-modal" class="ovelay"></label>
+
+            <div class="contact-container max-width">
+                <div class="content">
+                    <div class="images">
+                        <img src="./assets/images/popup-20.jpg" alt="" srcset="">
+                    </div>
+                    <div class="form">
+                        <div class="icon">
+                            <span>
+
+                                <i class="pixicon-message2"></i>
+                            </span>
+                        </div>
+
+                        <h2>Hey There!</h2>
+                        <p><span>
+                                Did you know that you can modify this form in PixFort builder using the drag & drop form
+                                builder.
+                            </span></p>
+
+                        <div class="form-group">
+                            <input type="email" name="email" class="form-control" id="email"
+                                placeholder="Enter Your Email Address">
+                        </div>
+
+                        <div class="form-group">
+                            <textarea class="form-control" rows="5" id="message" name="message" placeholder="Enter Your Message Here..."></textarea>
+                        </div>
+
+                        <button>SEND MESSAGE</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
         <div class="header">
-            <div class="header-content">
+            <div class="header-content max-width">
                 <div class="logo">
                     <img src="./assets/images/logo.png" alt="">
                 </div>
@@ -29,38 +68,39 @@
                                 <li><a href="">Integrations</a></li>
                             </ul>
                         </li>
-                        <li><a href="">CONTACT</a></li>
+                        <li><label for="open-modal" style="cursor: pointer;"><a>CONTACT</a></label></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <div class="menu-pc max-width">
+            <div class="section-menu">
+                <div class="menu-left">
+                    <div class="logo">
+                        <img src="./assets/images/logo.png" alt="">
+                    </div>
+                    <div class="menu-left-item">
+                        <ul>
+                            <li><a href="">FEATURES</a></li>
+                            <li><a href="">DROPDOWN</a></li>
+                            <li><label style="cursor: pointer;" for="open-modal"><a>CONTACT</a></label></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="menu-right">
+                    <ul>
+                        <li><a style="padding: 0 2px;" href=""><i class="pixicon-facebook3"></i></a></li>
+                        <li><a style="padding: 0 2px;" href=""><i class="pixicon-twitter4"></i></a></li>
+                        <li><a style="padding-left: 2px;" href=""><i class="pixicon-instagram4"></i></a></li>
                     </ul>
                 </div>
             </div>
 
         </div>
         <section class="section-top">
-            <div class="section-container">
-
-                <div class="section-menu">
-                    <div class="menu-left">
-                        <div class="logo">
-                            <img src="./assets/images/logo.png" alt="">
-                        </div>
-                        <div class="menu-left-item">
-                            <ul>
-                                <li><a href="">FEATURES</a></li>
-                                <li><a href="">DROPDOWN</a></li>
-                                <li><a href="">CONTACT</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="menu-right">
-                        <ul>
-                            <li><a style="padding: 0 2px;" href=""><i class="pixicon-facebook3"></i></a></li>
-                            <li><a style="padding: 0 2px;" href=""><i class="pixicon-twitter4"></i></a></li>
-                            <li><a style="padding-left: 2px;" href=""><i class="pixicon-instagram4"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="section-content">
+            <div class="section-container max-width">
+                <div class="section-content max-width">
                     <div class="text">
                         <div class="text-left">
                             <h2>
@@ -91,7 +131,7 @@
                     </div>
                 </div>
 
-                <div class="section-production">
+                <div class="section-production max-width">
                     <div class="section-production-item">
                         <i class="pixicon-circle-compass" style="color: #1274e7;"></i>
                         <div class="text">
@@ -125,7 +165,7 @@
         </section>
 
         <div class="section-item_2">
-            <div class="section-item_2-container">
+            <div class="section-item_2-container max-width">
                 <div class="text">
 
                     <h2>Build your website in minutes!</h2>
@@ -167,7 +207,7 @@
         </div>
 
         <div class="section-item-3">
-            <div class="section-item_3-container">
+            <div class="section-item_3-container max-width">
                 <div class="text">
                     <h2>Build your website in minutes!</h2>
                     <span>
@@ -209,7 +249,7 @@
         </div>
 
         <div class="section-item-4">
-            <div class="section-item_4-container">
+            <div class="section-item_4-container max-width">
                 <div class="text">
                     <h2>Build your website in minutes!</h2>
                     <span>
@@ -254,7 +294,7 @@
         </div>
 
         <div class="section-item-5">
-            <div class="section-item_5-container">
+            <div class="section-item_5-container max-width">
                 <div class="text">
                     <h2>Start with affordable prices.</h2>
                     <span>
@@ -339,7 +379,7 @@
         </div>
 
         <div class="section-item_6">
-            <div class="section-item_6-container">
+            <div class="section-item_6-container max-width">
                 <div class="text">
                     <h2>You are in good company.</h2>
                     <span>
@@ -360,11 +400,11 @@
                                 <span>Works good and so everyone can create a nice looking landingpage without coding.
                                     Thanks a lot!</span>
                             </p>
-    
+
                             <h6><span>
                                     <strong> Via airbnb.com</strong>
                                 </span></h6>
-    
+
                             <div>
                                 <img src="./assets/images/stars.png" alt="">
                             </div>
@@ -379,11 +419,11 @@
                                 <span>Works good and so everyone can create a nice looking landingpage without coding.
                                     Thanks a lot!</span>
                             </p>
-    
+
                             <h6><span>
                                     <strong> Via airbnb.com</strong>
                                 </span></h6>
-    
+
                             <div>
                                 <img src="./assets/images/stars.png" alt="">
                             </div>
@@ -398,11 +438,11 @@
                                 <span>Works good and so everyone can create a nice looking landingpage without coding.
                                     Thanks a lot!</span>
                             </p>
-    
+
                             <h6><span>
                                     <strong> Via airbnb.com</strong>
                                 </span></h6>
-    
+
                             <div>
                                 <img src="./assets/images/stars.png" alt="">
                             </div>
@@ -417,12 +457,14 @@
 
 
         <div class="section-item_7">
-            <div class="section-item_7-container">
+            <div class="section-item_7-container max-width">
                 <div class="text">
                     <h2>Frequently asked questions</h2>
                     <span>
                         <h6>
-                            PixFort Builder comes packed with MEGAPACK, the biggest template we have ever made, in <br> addition to a powerful integration system with a set of the most popular email services that <br> you already use and love.
+                            PixFort Builder comes packed with MEGAPACK, the biggest template we have ever made, in <br>
+                            addition to a powerful integration system with a set of the most popular email services that
+                            <br> you already use and love.
                         </h6>
                     </span>
                 </div>
@@ -430,44 +472,173 @@
                 <div class="section-item_7-content">
                     <div class="item">
                         <div class="btn"><span>
-                            Learn how to use the builder
-                        </span></div>
+                                Learn how to use the builder
+                            </span></div>
                         <div class="item-text animation">
                             <div class="item-text-content">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                             </div>
                         </div>
                     </div>
 
                     <div class="item">
                         <div class="btn"><span>
-                            Learn how to use the builder
-                        </span></div>
+                                Learn how to use the builder
+                            </span></div>
                         <div class="item-text">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                         </div>
-                    </div>  
+                    </div>
                     <div class="item">
                         <div class="btn"><span>
-                            Learn how to use the builder
-                        </span></div>
+                                Learn how to use the builder
+                            </span></div>
                         <div class="item-text">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                         </div>
-                    </div>  
+                    </div>
                     <div class="item">
                         <div class="btn"><span>
-                            Learn how to use the builder
-                        </span></div>
+                                Learn how to use the builder
+                            </span></div>
                         <div class="item-text">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                         </div>
-                    </div>  
+                    </div>
+
+                    <div class="item-span">
+                        <span>*The new PixFort Page Builder represents the next generation of HTML website creation
+                            tools. It introduces a revolutionary new way to build your website without writing a single
+                            line of code.</span>
+                    </div>
                 </div>
 
 
             </div>
         </div>
+
+        <footer>
+            <div class="footer-container max-width">
+                <div class="top">
+                    <div class="logo">
+                        <img src="./assets/images/logo.png" alt="" srcset="">
+                    </div>
+
+                    <div class="icon">
+                        <span class="">
+                            <a href="#" class="medium-social">
+                                <i class=" pixicon-visa2 big-icon-50 pix-slight-white"></i>
+                            </a>
+                            <a href="#" class="medium-social">
+                                <i class="pixicon-mastercard2 big-icon-50 pix-slight-white"></i>
+                            </a>
+                            <a href="#" class="medium-social">
+                                <i class="pixicon-amazon2 big-icon-50 pix-slight-white"></i>
+                            </a>
+                            <a href="#" class="medium-social">
+                                <i class="pixicon-ebay2 big-icon-50 pix-slight-white"></i>
+                            </a>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="center">
+                    <div class="item">
+                        <h5><span>
+                                Our mission
+                            </span></h5>
+                        <div class="text">
+                            <p> <span>
+                                    The new online PixFort Page Builder represents the next generation of HTML website
+                                    creation tools.
+                                </span></p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <h5><span>
+                                Product
+                            </span></h5>
+                        <div class="text" style="padding: 0;">
+                            <div>
+                                <a href="">
+                                    Purchase MEGAPACK
+                                </a>
+                            </div>
+                            <div style="margin-top: -10px;">
+                                <a href="">
+                                    Help Center
+                                </a>
+                            </div>
+                            <div style="margin-top: -10px;">
+                                <a href="">
+                                    terms of use
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <h5><span>
+                                About us
+                            </span></h5>
+
+                        <div class="text" style="padding: 0;">
+                            <div>
+                                <a href="">
+                                    Company
+                                </a>
+                            </div>
+                            <div style="margin-top: -10px;">
+                                <a href="">
+                                    Team
+                                </a>
+                            </div>
+                            <div style="margin-top: -10px;">
+                                <a href="">
+                                    We are Hiring!
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item big-padding">
+                        <div class="item-content">
+                            <h5><span>
+                                    Contact Us
+                                </span></h5>
+                            <div class="text">
+                                <span class="" style="line-height: 36px;">
+                                    16 Rue Saint Paul, Paris
+                                    +33 4 35 62 48
+                                </span>
+                            </div>
+
+                            <div class="btn">
+                                <a href="">CONTACT</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="bottom">
+                    <p>MEGAPACK Copyright © 2017 PixFort All Rights Reserved
+                    </p>
+                    <ul>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Features</a></li>
+                        <li><a href="">Services</a></li>
+                        <li><a href="">Pricing</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
     </div>
 
     <script src="./assets/js/main.js"></script>
