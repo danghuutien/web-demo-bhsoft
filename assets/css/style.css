@@ -1122,7 +1122,7 @@ body{
     animation: hiddenItem linear 0.2s;
 }
 
-.section-item_7-container .item .item-text.animation{
+.section-item_7-container .item .item-text.hidden.animation{
     height: auto;
     /* display: block; */
     animation: blockItem linear 0.2s;
