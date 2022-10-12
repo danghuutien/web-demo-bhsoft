@@ -547,6 +547,7 @@ body{
     padding: 14px 40px;
     background: #f7941d;
     border-radius: 30px;
+    color: #fff;
 }
 
 .section-production{
@@ -884,6 +885,10 @@ body{
     
 }
 
+.section-item_5-container .content  .item-2{
+    border-top: 3px solid #f7941d !important;
+}
+
 .section-item_5-container .content  .item{
     padding: 20px 30px;
     background: #444;
@@ -910,6 +915,11 @@ body{
     
     
 }
+
+.section-item_5-container .content  .item-2 .item-container>p span{
+    color: #f7941d !important;
+}
+ 
 .section-item_5-container .content  .item .item-container>p span{
     color: #888;
     font-weight: bold;
@@ -930,6 +940,11 @@ body{
     border-radius: 0.25em;
     font-size: 75%;
     color: #aaa;
+}
+
+.section-item_5-container .content  .item-2 .item-container>div>a{
+    background-color: #f7941d !important;
+
 }
 
 .section-item_5-container .content  .item .item-container>div>a{

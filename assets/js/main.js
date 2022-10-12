@@ -11,7 +11,6 @@ elements.forEach((element, index)=>{
             if(element !== $('.item-text.animation')){
                 $('.item-text').classList.add('hidden')
                 $('.item-text.animation').classList.remove('animation')
-                // element.querySelector('.item-text').classList.add('hidden')
                 element.querySelector('.item-text').classList.add('animation')
                 console.log('1')
             }else{
